@@ -1,0 +1,23 @@
+{
+  "name": "murmure-asmr-api",
+  "version": "1.0.0",
+  "description": "Display random french word every X seconds",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "tsc && node built/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^10.10.3",
+    "@types/request": "^2.47.1",
+    "es6-promise": "^4.2.5",
+    "express": "^4.16.4",
+    "pg-promise": "^8.4.6",
+    "request": "^2.88.0",
+    "typescript": "^3.1.1"
+  }
+}
